@@ -25,3 +25,5 @@ jobs:
 
     - name: Test
       run: sudo dotnet test src/Take.Blip.Client.sln --no-restore --verbosity normal
+    
+    - uses: codecov/codecov-action@v1
